@@ -1,5 +1,7 @@
+import type { MovieProps } from "../types";
 
-{"moviesData":[ 
+
+export const moviesData: MovieProps[] = [ 
   {
     "id": 1,
     "title": "Dune: Part Two",
@@ -7,7 +9,6 @@
     "release_year": 2024,
     "genres": ["Sci-Fi", "Adventure", "Drama"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/duneM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/duneD.jpg",
     "trailer": "/assets/trailers/dune2.mp4"
   },
@@ -18,7 +19,6 @@
     "release_year": 2024,
     "genres": ["Action", "Sci-Fi", "Monster"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/godzillaxkongM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/godzillaxkongD.png",
     "trailer": "/assets/trailers/godzillaxkong.mp4"
   },
@@ -29,7 +29,6 @@
     "release_year": 2023,
     "genres": ["Action", "Adventure", "Superhero"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/themarvelsM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/themarvelsD.jpg",
     "trailer": "/assets/trailers/marvels.mp4"
   },
@@ -40,7 +39,6 @@
     "release_year": 2023,
     "genres": ["Action", "Superhero", "Adventure"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/bluebeetleM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/bluebeetleD.jpg",
     "trailer": "/assets/trailers/bluebeetle.mp4"
   },
@@ -51,7 +49,6 @@
     "release_year": 2023,
     "genres": ["Animation", "Action", "Adventure"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/spidermanM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/spidermanD.jpg",
     "trailer": "/assets/trailers/spiderman.mp4"
   },
@@ -62,8 +59,7 @@
     "release_year": 2023,
     "genres": ["Action", "Adventure", "Superhero"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/flashM.png",
-    "thumbnail_desktop": "/assets/thumbnails/flashD.jpg",
+    "thumbnail_desktop": "/assets/thumbnails/flashD.png",
     "trailer": "/assets/trailers/theflash.mp4"
   },
   {
@@ -73,7 +69,6 @@
     "release_year": 2023,
     "genres": ["Action", "Adventure", "Comedy"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/gaurdiansofgalaxyM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/gaurdiansofgalaxyD.jpg",
     "trailer": "/assets/trailers/gaurdiansofgalaxy.mp4"
   },
@@ -84,7 +79,6 @@
     "release_year": 2023,
     "genres": ["Sci-Fi", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/creatorM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/creatorD.jpg",
     "trailer": "/assets/trailers/thecreator.mp4"
   },
@@ -95,7 +89,6 @@
     "release_year": 2023,
     "genres": ["Action", "Thriller", "Spy"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/missionimpossibleM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/missionimpossibleD.png",
     "trailer": "/assets/trailers/missionimpossible.mp4"
   },
@@ -106,7 +99,6 @@
     "release_year": 2023,
     "genres": ["Sci-Fi", "Action", "Adventure"],
     "type": "Series",
-    "thumbnail_mobile": "/assets/thumbnails/rebel-moonM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/rebel-moonD.jpg",
     "trailer": "/assets/trailers/rebelmoon.mp4"
   },
@@ -117,7 +109,6 @@
     "release_year": 2023,
     "genres": ["Drama", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/saltburnM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/saltburnD.jpeg",
     "trailer": "/assets/trailers/saltburn.mp4"
   },
@@ -128,7 +119,6 @@
     "release_year": 2023,
     "genres": ["Thriller", "Drama"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/leavetheworldbehindM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/leavetheworldbehindD.jpg",
     "trailer": "/assets/trailers/leavetheworldbehind.mp4"
   },
@@ -139,7 +129,6 @@
     "release_year": 2023,
     "genres": ["Crime", "Drama", "History"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/killeroftheflowermoonM.jpeg",
     "thumbnail_desktop": "/assets/thumbnails/killersoftheflowermoonD.jpg",
     "trailer": "/assets/trailers/thekillersoftheflowermoon.mp4"
   },
@@ -150,7 +139,6 @@
     "release_year": 2023,
     "genres": ["Thriller", "Crime"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/thekillerM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/thekillerD.jpg",
     "trailer": "/assets/trailers/thekiller.mp4"
   },
@@ -161,8 +149,7 @@
     "release_year": 2023,
     "genres": ["Biography", "Drama", "History"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/oppenhimerM.png",
-    "thumbnail_desktop": "/assets/thumbnails/oppenhimerD.jpg",
+    "thumbnail_desktop": "/assets/thumbnails/oppenhimerD.png",
     "trailer": "/assets/trailers/oppenhimer.mp4"
   },
   {
@@ -172,7 +159,6 @@
     "release_year": 2023,
     "genres": ["Thriller", "Crime"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/theblackbookM.jpeg",
     "thumbnail_desktop": "/assets/thumbnails/theblackbookD.jpeg",
     "trailer": "/assets/trailers/theblackbook.mp4"
   },
@@ -183,7 +169,6 @@
     "release_year": 2023,
     "genres": ["Crime", "Drama", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/lutherthefallensunM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/lutherthefallensunD.jpg",
     "trailer": "/assets/trailers/lutherthefallensun.mp4"
   },
@@ -194,7 +179,6 @@
     "release_year": 2022,
     "genres": ["Mystery", "Comedy", "Crime"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/knivesoutM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/knivesoutD.jpg",
     "trailer": "/assets/trailers/knivesout.mp4"
   },
@@ -205,7 +189,6 @@
     "release_year": 2023,
     "genres": ["Drama", "Comedy"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/holdoversM.jpeg",
     "thumbnail_desktop": "/assets/thumbnails/HoldoversD.jpg",
     "trailer": "/assets/trailers/theholdovers.mp4"
   },
@@ -216,8 +199,7 @@
     "release_year": 2024,
     "genres": ["Drama", "Romance", "Sports"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/ChallengersM.jpg",
-    "thumbnail_desktop": "/assets/thumbnails/ChallengersD.jpeg",
+    "thumbnail_desktop": "/assets/thumbnails/ChallengersD.jpg",
     "trailer": "/assets/trailers/challengers.mp4"
   },
   {
@@ -227,7 +209,6 @@
     "release_year": 2024,
     "genres": ["Drama", "Mystery"],
     "type": "Series",
-    "thumbnail_mobile": "/assets/thumbnails/onedayM.jpeg",
     "thumbnail_desktop": "/assets/thumbnails/onedayD.jpg",
     "trailer": "/assets/trailers/oneday.mp4"
   },
@@ -238,7 +219,6 @@
     "release_year": 2024,
     "genres": ["Romance", "Drama"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/idea-of-youM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/idea-of-youM.jpg",
     "trailer": "/assets/trailers/theideaofyou.mp4"
   },
@@ -249,7 +229,6 @@
     "release_year": 2023,
     "genres": ["Romance", "Comedy"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/anyonebutyouM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/anyonebutyouD.jpg",
     "trailer": "/assets/trailers/anyonebutyou.mp4"
   },
@@ -260,7 +239,6 @@
     "release_year": 2023,
     "genres": ["Horror", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/nun2M.jpg",
     "thumbnail_desktop": "/assets/thumbnails/nun2D.jpg",
     "trailer": "/assets/trailers/thenun2.mp4"
   },
@@ -271,7 +249,6 @@
     "release_year": 2023,
     "genres": ["Horror", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/talktomeM.jpeg",
     "thumbnail_desktop": "/assets/thumbnails/talktomeD.jpeg",
     "trailer": "/assets/trailers/talktome.mp4"
   },
@@ -282,7 +259,6 @@
     "release_year": 2023,
     "genres": ["Horror", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/fivenightsatfreddysM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/fivenightsatfreddysD.jpg",
     "trailer": "/assets/trailers/fivenightsatfreddys.mp4"
   },
@@ -293,7 +269,6 @@
     "release_year": 2023,
     "genres": ["Sci-Fi", "Horror", "Thriller"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/noonewillsaveyouM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/noonewillsaveyouD.jpg",
     "trailer": "/assets/trailers/noonewillsaveyou.mp4"
   },
@@ -304,7 +279,6 @@
     "release_year": 2024,
     "genres": ["Horror", "Fantasy"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/abigailM.jpeg",
     "thumbnail_desktop": "/assets/thumbnails/abigailD.jpg",
     "trailer": "/assets/trailers/abigail.mp4"
   },
@@ -315,9 +289,7 @@
     "release_year": 2023,
     "genres": ["Drama", "Romance"],
     "type": "Movie",
-    "thumbnail_mobile": "/assets/thumbnails/pastlivesM.jpg",
     "thumbnail_desktop": "/assets/thumbnails/pastlivesD.jpg",
     "trailer": "/assets/trailers/pastlives.mp4"
   }
 ]
-}

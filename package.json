@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cloudinary": "^1.41.3",
+    "dotenv": "^16.5.0",
+    "framer-motion": "^12.17.0",
+    "multer": "^2.0.1",
+    "multer-storage-cloudinary": "^4.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

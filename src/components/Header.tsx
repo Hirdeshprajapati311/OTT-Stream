@@ -14,7 +14,7 @@ const Header = () => {
 
 
   return (
-    <nav className='md:flex hidden flex-row justify-between relative px-6 py-4'>
+    <nav className='md:flex hidden flex-row bg-gradient-to-b from-black to-transparent justify-between relative md:px-28 md:py-6'>
       <div className='md:gap-6 lg:gap-10 flex flex-row'>
         <BarLink to="/home" linkName="Home" />
         <BarLink to="/browse" linkName="Browse" />
@@ -44,7 +44,7 @@ export default Header;
 
 const BarLink = ({to,linkName}:BarLinkProps) => {
   return (
-    <NavLink to={to} className={({ isActive }: { isActive: Boolean }) => `lg:text-lg md:text-base sm:text-sm font-bold ${isActive?"text-white":"text-gray-400"}`}>{linkName}</NavLink>
+    <NavLink to={to} className={({ isActive }: { isActive: Boolean }) => `lg:text-lg drop-shadow-[2px_2px_0_black] md:text-base sm:text-sm font-bold ${isActive?"text-white":"text-gray-400"}`}>{linkName}</NavLink>
   )
 }
 

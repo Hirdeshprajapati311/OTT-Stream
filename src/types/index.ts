@@ -29,3 +29,14 @@ export interface StreamDetailsProp{
   generalInfo:string
 
 }
+
+export interface MovieProps{
+  id: number
+  title: string
+  description: string
+  release_year: number
+  genres: string[]
+  type: string
+  thumbnail_desktop: string
+  trailer:string
+}

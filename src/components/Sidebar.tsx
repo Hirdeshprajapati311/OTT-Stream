@@ -13,7 +13,7 @@ import SidebarLink from "./SidebarLink";
 
 const Sidebar = () => {
   return (
-    <aside className="hidden h-full md:w-16 lg:w-20 bg-primary-dark pt-8 md:flex flex-col justify-between ">
+    <aside className="hidden z-50 relative h-full md:w-16 lg:w-20 bg-primary-dark pt-8 md:flex flex-col justify-between ">
       <div className="flex-col md:gap-4 lg:gap-6 w-full flex items-center">
         <SidebarLink to="/personal" linkLogo={<Logo className="object-contain mx-auto md:h-12 md:w-12 lg:h-15 lg:w-15" src="/assets/logo/Logomark.png" alt="Company logo" />} />
         <SidebarLink to="/home" linkLogo={<RiHomeLine />} />

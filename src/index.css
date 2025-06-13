@@ -12,3 +12,12 @@
   --color-bg:#1a202c;
   --color-text:white;
 }
+
+/* Add this to your CSS */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
